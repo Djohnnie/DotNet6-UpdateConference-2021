@@ -5,17 +5,17 @@ VisualStudioVersion = 17.0.31808.319
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-CSharp10Features.Records", "4-CSharp10Features.Records\4-CSharp10Features.Records.csproj", "{3E98F41C-D445-48BB-A63C-27B4386BE2ED}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Record structs", "1. Record structs", "{70739A35-B2B2-464B-8C8F-BBDA88AAEB5E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Record structs", "01. Record structs", "{70739A35-B2B2-464B-8C8F-BBDA88AAEB5E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Global usings", "2. Global usings", "{DF179A88-9E8A-4123-8EB8-3E007C1EFCD6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Global usings", "02. Global usings", "{DF179A88-9E8A-4123-8EB8-3E007C1EFCD6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. File-scoped namespaces", "3. File-scoped namespaces", "{2D7FBD40-2CC1-472A-98ED-CC1653F37F43}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. File-scoped namespaces", "03. File-scoped namespaces", "{2D7FBD40-2CC1-472A-98ED-CC1653F37F43}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Const and interpolated string", "4. Const and interpolated string", "{B5916C23-5BF5-455F-80EB-D8CD7E2D0FC2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Const and interpolated string", "04. Const and interpolated string", "{B5916C23-5BF5-455F-80EB-D8CD7E2D0FC2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Implicit usings", "5. Implicit usings", "{748A18C5-042A-4A49-A6F6-FE1643FA9D6C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Implicit usings", "05. Implicit usings", "{748A18C5-042A-4A49-A6F6-FE1643FA9D6C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Nullable", "6. Nullable", "{E251807E-2E3D-4372-B44E-5060D57F6168}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Nullable", "06. Nullable", "{E251807E-2E3D-4372-B44E-5060D57F6168}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-CSharp10Features.GlobalUsings", "4-CSharp10Features.GlobalUsings\4-CSharp10Features.GlobalUsings.csproj", "{1DB76327-7E68-4862-B5AF-07C35D845D91}"
 EndProject
@@ -29,9 +29,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-CSharp10Features.Interpol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-CSharp10Features.ImplicitProjectUsings", "4-CSharp10Features.ImplicitProjectUsings\4-CSharp10Features.ImplicitProjectUsings.csproj", "{282CFE42-A64B-4FB9-B188-28E4ED5888BD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. DateOnly and TimeOnly", "7. DateOnly and TimeOnly", "{67AD3DD1-0C82-4D20-9BA1-8DC654FA5F67}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. DateOnly and TimeOnly", "07. DateOnly and TimeOnly", "{67AD3DD1-0C82-4D20-9BA1-8DC654FA5F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-DotNet6Features.DateOnlyTimeOnly", "4-DotNet6Features.DateOnlyTimeOnly\4-DotNet6Features.DateOnlyTimeOnly.csproj", "{6682900D-05E0-40EB-9A01-FF017B3AA157}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-DotNet6Features.DateOnlyTimeOnly", "4-DotNet6Features.DateOnlyTimeOnly\4-DotNet6Features.DateOnlyTimeOnly.csproj", "{6682900D-05E0-40EB-9A01-FF017B3AA157}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. ArgumentNullException", "08. ArgumentNullException", "{89BAF964-96F7-4441-9398-19E5318191E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.DotNet6Features.ArgumentNullException", "4.DotNet6Features.ArgumentNullException\4.DotNet6Features.ArgumentNullException.csproj", "{E58EA588-CF0B-4999-B463-70E32030D775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. PeriodicTimer", "10. PeriodicTimer", "{6B45BB12-D37B-45AC-9C76-A611B2330473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.DotNet6Features.PeriodicTimer", "4.DotNet6Features.PeriodicTimer\4.DotNet6Features.PeriodicTimer.csproj", "{2DF4CF1D-3948-48CA-BDFD-170E8466F733}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. Parallel.ForEachAsync", "11. Parallel.ForEachAsync", "{40D09926-9059-4DC4-BDE9-D4D67DDDBAF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.DotNet6Features.ParallelForEachAsync", "4.DotNet6Features.ParallelForEachAsync\4.DotNet6Features.ParallelForEachAsync.csproj", "{005035C8-6F17-45AD-A053-93EACF6E0FFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. PriorityQueue", "09. PriorityQueue", "{E07FB24A-EA0E-4FF5-9181-AFD9B8EB26BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.DotNet6Features.PriorityQueue", "4.DotNet6Features.PriorityQueue\4.DotNet6Features.PriorityQueue.csproj", "{962080AD-9292-4273-87FC-6140DF4970CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +87,22 @@ Global
 		{6682900D-05E0-40EB-9A01-FF017B3AA157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6682900D-05E0-40EB-9A01-FF017B3AA157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6682900D-05E0-40EB-9A01-FF017B3AA157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58EA588-CF0B-4999-B463-70E32030D775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58EA588-CF0B-4999-B463-70E32030D775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58EA588-CF0B-4999-B463-70E32030D775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58EA588-CF0B-4999-B463-70E32030D775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF4CF1D-3948-48CA-BDFD-170E8466F733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF4CF1D-3948-48CA-BDFD-170E8466F733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF4CF1D-3948-48CA-BDFD-170E8466F733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF4CF1D-3948-48CA-BDFD-170E8466F733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005035C8-6F17-45AD-A053-93EACF6E0FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005035C8-6F17-45AD-A053-93EACF6E0FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005035C8-6F17-45AD-A053-93EACF6E0FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005035C8-6F17-45AD-A053-93EACF6E0FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962080AD-9292-4273-87FC-6140DF4970CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962080AD-9292-4273-87FC-6140DF4970CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962080AD-9292-4273-87FC-6140DF4970CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962080AD-9292-4273-87FC-6140DF4970CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +116,10 @@ Global
 		{D5D6E47C-B5D2-4FB0-8E5F-608746EE1B24} = {B5916C23-5BF5-455F-80EB-D8CD7E2D0FC2}
 		{282CFE42-A64B-4FB9-B188-28E4ED5888BD} = {748A18C5-042A-4A49-A6F6-FE1643FA9D6C}
 		{6682900D-05E0-40EB-9A01-FF017B3AA157} = {67AD3DD1-0C82-4D20-9BA1-8DC654FA5F67}
+		{E58EA588-CF0B-4999-B463-70E32030D775} = {89BAF964-96F7-4441-9398-19E5318191E8}
+		{2DF4CF1D-3948-48CA-BDFD-170E8466F733} = {6B45BB12-D37B-45AC-9C76-A611B2330473}
+		{005035C8-6F17-45AD-A053-93EACF6E0FFC} = {40D09926-9059-4DC4-BDE9-D4D67DDDBAF6}
+		{962080AD-9292-4273-87FC-6140DF4970CE} = {E07FB24A-EA0E-4FF5-9181-AFD9B8EB26BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34FAA315-4678-4D22-AF4C-68B488D73505}
